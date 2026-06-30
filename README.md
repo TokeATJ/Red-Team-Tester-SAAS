@@ -1,7 +1,7 @@
 # 🚀 AEGIS Agentic Security Auditor & Threat Simulation Engine
 
 <p align="center">
-  <img src="https://loremflickr.com/1600/900/cybersecurity,network?lock=1" alt="AEGIS Security Audit Banner" width="100%" referrerPolicy="no-referrer" />
+  <img src="demos/screenshots/hero_banner.jpg" alt="AEGIS Security Audit Banner" width="100%" referrerPolicy="no-referrer" />
 </p>
 
 ⚠️ **This repository is a technical showcase.**
@@ -50,7 +50,7 @@ AEGIS unites automated security probing, cognitive threat modeling, and immediat
 AEGIS delivers real-time control, high-fidelity monitoring, and deep technical insights through a sleek, interactive operator terminal.
 
 <p align="center">
-  <img src="https://loremflickr.com/1600/900/ai,analytics?lock=2" alt="AEGIS Multi-Agent Scan Control Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
+  <img src="demos/screenshots/dashboard_screenshot.jpg" alt="AEGIS Multi-Agent Scan Control Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
 </p>
 
 ### How the Tool is Used:
@@ -66,7 +66,7 @@ AEGIS delivers real-time control, high-fidelity monitoring, and deep technical i
 The ultimate value of AEGIS lies in its ability to bridge the gap between technical finding identification and executive compliance resolution.
 
 <p align="center">
-  <img src="https://loremflickr.com/1600/900/code,laptop?lock=3" alt="AEGIS GRC Evidence & Remediation Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
+  <img src="demos/screenshots/remediation_screenshot.jpg" alt="AEGIS GRC Evidence & Remediation Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
 </p>
 
 ### Why This Information is Highly Valuable:
