@@ -1,7 +1,8 @@
 # 🚀 AEGIS Agentic Security Auditor & Threat Simulation Engine
 
 <p align="center">
-  <img src="demos/screenshots/hero_banner.jpg" alt="AEGIS Security Audit Banner" width="100%" referrerPolicy="no-referrer" />
+ <img width="3036" height="1735" alt="image" src="https://github.com/user-attachments/assets/224b5e25-3f26-4174-8a35-5eb0e803a29e" />
+
 </p>
 
 ⚠️ **This repository is a technical showcase.**
