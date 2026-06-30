@@ -1,0 +1,15 @@
+# Ignore local developmental files and secrets
+.env
+.env.*
+*.local
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+*.exe
+*.dll
+*.so
+credentials.json
+keys/
+private/
