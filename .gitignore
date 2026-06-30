@@ -1,15 +1,8 @@
-# Ignore local developmental files and secrets
-.env
-.env.*
-*.local
 node_modules/
-dist/
 build/
-*.log
+dist/
+coverage/
 .DS_Store
-*.exe
-*.dll
-*.so
-credentials.json
-keys/
-private/
+*.log
+.env*
+!.env.example

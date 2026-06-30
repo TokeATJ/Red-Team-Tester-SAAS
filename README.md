@@ -1,201 +1,127 @@
-# 🚀 Red Team Tester SAAD
+# ANTIGRAVITY AI — AUTONOMOUS RED TEAM & AGENTIC AI SECURITY PLATFORM
 
-<p align="center">
- <img width="3036" height="1735" alt="image" src="https://github.com/user-attachments/assets/224b5e25-3f26-4174-8a35-5eb0e803a29e" />
-
-</p>
-
-⚠️ **This repository is a technical showcase.**
-The production system runs in a private, secured environment.
-Source code is intentionally excluded to protect intellectual property, security-sensitive logic, and enterprise deployment patterns.
+Antigravity AI is an enterprise-grade SaaS platform built to automate authorized security validation, Attack Surface Management (ASM), and Agentic AI Security Auditing. The platform combines passive intelligence gathering, non-destructive threat simulation modeling, and server-side reasoning engines powered by Gemini AI models to map complex threat paths.
 
 ---
 
-## 1. Executive Summary
+## 1. ARCHITECTURE OVERVIEW
 
-The **AEGIS Agentic Security Auditor & Threat Simulation Engine** represents a paradigm shift in continuous Security Audit and GRC (Governance, Risk, and Compliance) automation. Powered by a coordinated network of autonomous, specialized AI agents, AEGIS automates passive reconnaissance, DNS intelligence mapping, secure transport probing, and deep-context vulnerability assessments. 
-
-Designed for cloud-native architectures and AI-integrated pipelines, the engine stress-tests and audits both standard web vulnerabilities and complex AI-specific threats (such as the **OWASP Top 10 for LLM Applications** and the **OWASP Agentic AI Risks (ASI01–ASI10)**). It transforms raw, complex exploit simulations into certified compliance artifacts mapped to global security frameworks (**SOC 2, ISO 27001, NIST CSF 2.0, NIST AI RMF**), complete with cryptographic validation ledgering and interactive code-level remediation.
-
----
-
-## 2. Problem Statement
-
-### The Security Gap
-As organizations adopt autonomous AI agents and Large Language Models, traditional Application Security Testing (AST) tools are failing. Traditional vulnerability scanners operate on static, deterministic signatures; they are fundamentally blind to **cognitive vulnerabilities**—including instruction drift, prompt hijack attempts, goal overrides, and RAG index contamination.
-
-### Why Existing Solutions Fail
-1. **Lack of AI Context**: Traditional scanners analyze network handshakes and input boundaries but cannot evaluate the semantic and cognitive boundaries of LLM prompt layers.
-2. **Actionability Deficit**: Compliance tools flag risks but leave engineering teams to manually design and write complex custom sanitization code and response headers.
-3. **The Audit Proof Bottleneck**: Converting technical logs into audit-acceptable evidence is a manual, labor-intensive process that stalls compliance cycles.
-
-### Risks of Inaction
-Deploying AI agents without automated cognitive security boundaries leaves organizations exposed to data exfiltration, system takeover, brand reputation collapse, and immediate non-compliance penalties under the latest enterprise regulations.
-
----
-
-## 3. Solution Overview
-
-AEGIS unites automated security probing, cognitive threat modeling, and immediate, cryptographically validated code-level remediation into a single, cohesive, multi-agent pipeline.
-
-### Key Capabilities
-* **Multi-Agent Orchestration**: Coordinates a team of specialized AI agents, ensuring compartmentalized task execution and predictable reasoning loops.
-* **Passive & Safe Assessments**: Gathers deep security intelligence without launching invasive, destructive, or service-disrupting payloads.
-* **GRC Automation Engine**: Automatically translates raw vulnerability logs into highly structured compliance evidence documents mapped directly to global standards.
-* **Remediation Code Blueprinting**: Delivers precise, copy-pasteable TypeScript, Express middleware, and server configurations tailored to the exact context of each finding.
-
----
-
-## 4. Core Features & Tool Usage
-
-AEGIS delivers real-time control, high-fidelity monitoring, and deep technical insights through a sleek, interactive operator terminal.
-
-<p align="center">
-  <img src="demos/screenshots/dashboard_screenshot.jpg" alt="AEGIS Multi-Agent Scan Control Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
-</p>
-
-### How the Tool is Used:
-1. **Target Initialization**: The security analyst inputs a target hostname and selects the target compliance frameworks (e.g., SOC 2, ISO 27001, OWASP AI).
-2. **Autonomous Execution**: Upon authorization, the orchestrator dispatches specialized agent worker nodes. 
-3. **Real-Time Telemetry**: Analysts track agent behavior in real time via a streaming terminal, monitoring active DNS mappings, transport-layer header logs, and simulated cognitive fuzzing outcomes.
-4. **Interactive Risk Gauging**: Finding severities are aggregated and displayed as a combined CVSS-aligned risk score, offering instantaneous security posture feedback.
-
----
-
-## 5. High-Value GRC Evidence & Remediation
-
-The ultimate value of AEGIS lies in its ability to bridge the gap between technical finding identification and executive compliance resolution.
-
-<p align="center">
-  <img src="demos/screenshots/remediation_screenshot.jpg" alt="AEGIS GRC Evidence & Remediation Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
-</p>
-
-### Why This Information is Highly Valuable:
-* **Accelerating developer remediation**: Instead of generic compliance advice, AEGIS generates exact, contextual before-and-after code modifications (such as strict Content-Security-Policy middleware or input schema sanitization blocks). This reduces patch times from days to minutes.
-* **Satisfying GRC and Security Auditors**: AEGIS compiles structured, human-in-the-loop validated reports directly cross-referenced with official control requirements (e.g., CC7.1, A.8.28, SI-2).
-* **Cryptographic Tamper-Proof Seals**: Completed reports are canonicalized and signed using SHA-256 cryptographic hashes. This enables compliance teams to immediately prove the absolute integrity and authenticity of their audit evidence packets.
-
----
-
-## 6. Agentic AI Design
-
-AEGIS coordinates multiple autonomous, specialized agents, each bound to a strict operational scope:
-
-* **Intake Agent**: Verifies targeting permissions, checks RBAC authorization, and establishes targeting parameters.
-* **Reconnaissance Agent**: Coordinates passive DNS intelligence and network architecture mapping.
-* **Vulnerability Assessment Agent**: Probes remote endpoints to inspect HTTP secure transport isolation controls and CORS flags.
-* **AI Exploitation Agent**: Stress-tests model prompting pipelines with safe, simulated cognitive fuzzing payloads.
-* **Security & Compliance Agent**: Synthesizes telemetry logs, maps findings to compliance clauses, and compiles the code-level remediation blueprints.
-
-Explore our [Agent Design Specifications](docs/agent-design.md) for full functional boundaries and escalation policies.
-
----
-
-## 7. System Architecture & Trust Boundaries
-
-The platform utilizes a layered architecture designed to enforce rigorous security boundary isolation:
+Antigravity AI utilizes a modern, robust, full-stack architecture combining a reactive TypeScript frontend styled after the premium **"Sleek Interface"** design paradigm with a secure Node.js (Express) backend.
 
 ```
-                  ┌────────────────────────────────────────┐
-                  │          React Web Portal Interface    │
-                  └───────────────────┬────────────────────┘
-                                      │ (Real-Time Streams)
-                                      ▼
-                  ┌────────────────────────────────────────┐
-                  │      Express API & Gateway Controller  │
-                  └───────────────────┬────────────────────┘
-                                      │
-         ┌────────────────────────────┴────────────────────────────┐
-         ▼                                                         ▼
-┌──────────────────────────────────┐             ┌──────────────────────────────────┐
-│      LLM Orchestration Layer     │             │       Agent Execution Engine     │
-│  (Gemini API with Guardrails)    │             │  (Isolated Tool Sandbox Workers) │
-└──────────────────────────────────┘             └──────────────────────────────────┘
++--------------------------------------------------------------------------+
+|                              ANTIGRAVITY FRONTEND                         |
+|    [Executive Dashboard]  [Attack Surface]  [Governance & Compliance]     |
+|    [Active Scan Console]  [Evidence Vault]  [OWASP Agentic AI Monitor]   |
++------------------------------------+-------------------------------------+
+                                     |
+                                     | Secure API Handshakes (REST/JSON)
+                                     v
++------------------------------------+-------------------------------------+
+|                              ANTIGRAVITY BACKEND                          |
+|    * Multi-Agent Coordinator Core                                        |
+|    * Passive Port & Header Inspect Hook                                  |
+|    * STRIDE & MITRE ATT&CK Mapper Engine                                 |
+|    * Google GenAI Integration Proxy (Lazy Loaded)                        |
+|    * SOC-2 Compliance Audit Signer                                       |
++--------------------------------------------------------------------------+
 ```
 
-Detailed architectural breakdowns—including system boundaries, memory layers, and data validation boundaries—are documented in the [Architecture Guide](docs/architecture.md) and mapped visually in [System Diagrams](diagrams/system-architecture.md).
+---
+
+## 2. MULTI-AGENT ARCHITECTURE & WORKFLOW
+
+The scanning core deploys five distinct task-specific agents in a synchronized, linear pipeline to audit the specified target:
+
+1. **Recon Agent**: Conducts asynchronous passive DNS checks and server header analysis.
+2. **Vulnerability Assessment Agent**: Safely checks for transport weaknesses (weak TLS, missing HSTS, missing CSP, insecure cookies).
+3. **Exploit Simulation Agent**: Safely models input validation or endpoint escape paths under strict governance constraints.
+4. **AI Security Agent**: Evaluates targeted LLM endpoints against the **OWASP Agentic AI Top 10 (ASI01 - ASI10)**.
+5. **AI Analyst Agent**: Integrates server-side Gemini threat modeling to generate risk scores, technical mitigations, and compliance mappings.
+6. **Report Generation Agent**: Formats results into structured text bundles ready for leadership (CISO), engineering, or compliance audits.
 
 ---
 
-## 8. Security, Governance & Risk Management
+## 3. THREAT MODELS & SEQUENCE DIAGRAMS
 
-Security is the core operating philosophy of AEGIS:
-* **Principle of Least Privilege (PoLP)**: All tool workers execute within ephemeral, sandboxed containers, preventing access to host environments or unauthorized external networks.
-* **Structured Output Schemas**: All agent communications are parsed via strict TypeScript interfaces, neutralising indirect prompt injection attacks before they can hijack reasoning streams.
-* **Data Minimization and Redaction**: Logs are dynamically scanned and redacted prior to database persistence, ensuring no corporate secrets, system tokens, or personal identifiers are stored.
+### STRIDE Threat Model
+* **Spoofing**: Enforces strict DNS resolution matching and server-side hostname verification to prevent domain hijacking.
+* **Tampering**: All evidence collected includes a calculated SHA-256 hash checksum, allowing operators to run instant integrity checks in the Evidence Vault.
+* **Repudiation**: A robust Audit Log records all actions with timestamps, operator emails, confirmation signatures, and client IP addresses.
+* **Information Disclosure**: Lazy-loads Gemini credentials. Secrets are excluded from logs and browser visibility.
+* **Denial of Service**: Passive assessment models apply strict rate limits to prevent scanning-induced performance degradation.
+* **Elevation of Privilege**: Enforces front-to-back Role Based Access Controls (RBAC) preventing unauthorized users from modifying governance policies.
 
----
-
-## 9. Compliance Alignment Matrix
-
-| Mapped Finding | NIST CSF 2.0 | ISO/IEC 27001:2022 | SOC 2 (TSC) | OWASP LLM / Agentic AI | NIST AI RMF |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Missing CSP Response Header** | **PR.DS-01** | **A.8.28** | **CC7.1** | *N/A (Web Tier)* | **Measure 2.11** |
-| **Exposed Verbose Stack Traces** | **DE.AE-01** | **A.8.20** | **CC7.2** | *N/A (Web Tier)* | **Govern 1.2** |
-| **ASI01 — Cognitive Intent Override** | **PR.IP-01** | **A.8.28** | **CC6.1** | **ASI01** | **Govern 1.2** |
-| **ASI06 — Indirect Prompt Injection** | **PR.DS-01** | **A.8.24** | **CC6.1** | **ASI06** | **Measure 2.11** |
-
-Full alignments are mapped in the [Compliance Mapping Guide](docs/compliance-mapping.md).
-
----
-
-## 10. Demo Scenarios
-
-See how the multi-agent engine responds under diverse conditions:
-1. **Scenario A: Web Portals & Transport Isolation Audit**: Probes host headers, audits CORS wildcards, and recommends secure Helmet middleware integrations.
-2. **Scenario B: AI Chatbot Cognitive Bypass Auditing**: Tests conversational models against instruction overrides and prompts, identifying susceptibility to goal hijacking.
-3. **Scenario C: Multi-Agent GRC Evidence compilation**: Demonstrates continuous logging, risk score computation, and cryptographic report signing.
-
-Complete redacted logs and configurations are available in [Demo Scenarios](demos/demo-scenarios.md) and [Sample Input/Output](demos/sample-input-output.md).
-
----
-
-## 11. Why the Source Code Is Private
-
-To protect intellectual property and ensure the platform remains a defensive asset:
-1. **Proprietary Prompt Envelopes**: System instructions are highly engineered to avoid hallucinations during security assessments.
-2. **Pattern Matching & Threat Databases**: Signature catalogs for secure transport and CORS inspection are trade secrets.
-3. **Enterprise Configurations**: Orchestration scripts, Docker structures, and cloud-native database schemas are withheld.
+### Sequence Diagram: Consent & Scan Loop
+```
+Operator (UI)          Node Controller            Recon / AI Agent           Gemini Model
+    |                         |                          |                         |
+    |-- Click Start Scan ---->|                          |                         |
+    |   [Checks Consent]      |                          |                         |
+    |                         |-- Parse & SSRF Check --->|                         |
+    |                         |-- Write Audit Trail ---->|                         |
+    |<-- Return Scan ID ------|                          |                         |
+    |                         |-- Trigger Pipeline ----->|                         |
+    |                         |                          |-- HTTP GET / passive -->|
+    |                         |                          |-- Evaluate ASI01-10 --->|
+    |                         |                          |                         |
+    |                         |<-- Pipe raw headers -----|                         |
+    |                         |                                                    |
+    |                         |-- Post threat intelligence parameters ------------>|
+    |                         |<-- Synthesized risk scores & CVSS maps -------------|
+    |                         |
+    |<-- Event Stream logs ---|
+    v                         v
+```
 
 ---
 
-## 12. Request a Private Demo
+## 4. DATABASE MODELS (In-Memory / Persistent Schemas)
 
-We welcome serious inquiries from enterprise GRC teams, CISOs, prospective partners, and employers under a Mutual Non-Disclosure Agreement (MNDA).
+The platform maintains rich, typed state models mapped to the following entities:
 
-📩 **Contact Channels**:
-* **Email**: [tokeatijosan1@gmail.com](mailto:tokeatijosan1@gmail.com)
-* **GitHub Profile**: [TokeATJ](https://github.com/TokeATJ)
-
----
-
-## 13. Repository Map
-
-* [📂 **docs/**](docs/)
-  * [Overview & Vision](docs/overview.md) — Product scope and design pillars.
-  * [System Architecture](docs/architecture.md) — Detailed layer-by-layer architectural breakdown.
-  * [Agent Design](docs/agent-design.md) — Roles, inputs, outputs, and boundaries of active agents.
-  * [Workflows](docs/workflows.md) — Step-by-step agent coordination and message streams.
-  * [Security & Governance](docs/security-governance.md) — Least-privilege controls and prompt defenses.
-  * [Compliance Mapping](docs/compliance-mapping.md) — Detailed cross-reference compliance tables.
-* [📂 **diagrams/**](diagrams/)
-  * [System Architecture](diagrams/system-architecture.md) — Mermaid visual map of the services.
-  * [Agent Orchestration](diagrams/agent-orchestration.md) — Sequence flow of agent coordination.
-  * [Data Flow](diagrams/data-flow.md) — Flow of telemetry from host to compiled audit proof.
-  * [Trust Boundary](diagrams/trust-boundary.md) — Network and authentication boundary maps.
-* [📂 **demos/**](demos/)
-  * [Demo Scenarios](demos/demo-scenarios.md) — Operational walkthroughs.
-  * [Sample Input/Output](demos/sample-input-output.md) — Redacted input and output JSON structures.
-* [📂 **evidence/**](evidence/)
-  * [Audit Artifacts](evidence/audit-artifacts.md) — Document structures for external auditors.
-  * [Capability Metrics](evidence/metrics.md) — Core performance benchmarks.
-  * [Performance Summary](evidence/performance-summary.md) — Asynchronous coordination and cryptographic validation details.
-* [📂 **roadmap/**](roadmap/)
-  * [Current State](roadmap/current-state.md) — Verified release capabilities.
-  * [Future Enhancements](roadmap/future-enhancements.md) — Product vision and Q3/Q4 deliverables.
+* **UserSession**: Tracks active operator parameters, roles (`CISO`, `Security Analyst`, `Security Engineer`, `AI Governance`), and organization labels.
+* **Scan**: Contains metadata, target types (`ai_agent`, `rag_app`, `api_endpoint`, `standard_web`), overall risk metrics, and logs.
+* **Finding**: Technical threat records detailing descriptions, impact analysis, STRIDE categories, and mitigation advice.
+* **Evidence**: Stores raw HTTP check metadata, cryptographic hashes, and integrity status fields.
+* **OrganizationPolicy**: Controls tool restrictions and active safety boundaries.
+* **AuditRecord**: Signed immutable logs representing administrative actions.
 
 ---
 
-## 14. Disclaimer
+## 5. DOCKER CONFIGURATION
 
-*Disclaimer: This repository is intended strictly for portfolio presentation and architecture demonstration. The security scan findings, telemetry lines, and logs displayed in the documentation are simulated security validation examples designed to showcase GRC-mapping capabilities. No unauthorized scanning is ever performed. Always secure explicit authorization prior to testing production resources.*
+Deploy Antigravity AI safely using isolated, non-privileged Docker configurations:
+
+```dockerfile
+# Dockerfile
+FROM node:22-alpine AS builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+
+FROM node:22-alpine
+WORKDIR /app
+ENV NODE_ENV=production
+COPY package*.json ./
+RUN npm ci --only=production
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/server.ts ./server.ts
+COPY --from=builder /app/src/types.ts ./src/types.ts
+RUN npm install -g tsx
+
+EXPOSE 3000
+USER node
+CMD ["tsx", "server.ts"]
+```
+
+---
+
+## 6. ETHICAL COMPLIANCE & LEGAL SAFETY
+
+Antigravity AI enforces security constraints to prevent abuse:
+1. **SSRF Protections**: Targets resolving to local addresses (`localhost`, `127.0.0.1`, loopbacks) are immediately blocked.
+2. **Authorization Consent Check**: Initiators must confirm ownership before scans are queued.
+3. **Passive Auditing**: The scanning engine utilizes only standard GET, HEAD, and passive DNS lookups. No exploits or hostile code are deployed.
