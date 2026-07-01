@@ -1,4 +1,4 @@
-# 🚀 AEGIS Agentic Security Auditor & Threat Simulation Engine
+# 🚀 REDMIND AI SAAS Project
 
 <p align="center">
   <img width="3010" height="1726" alt="image" src="https://github.com/user-attachments/assets/161c5c45-13bc-4a16-b84e-be1b70051627" />
