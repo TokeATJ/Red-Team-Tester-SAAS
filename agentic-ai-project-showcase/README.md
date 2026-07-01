@@ -1,8 +1,7 @@
 # 🚀 AEGIS Agentic Security Auditor & Threat Simulation Engine
 
 <p align="center">
-  <img width="1518" height="868" alt="image" src="https://github.com/user-attachments/assets/d01e3ba0-4bd7-4645-97cb-e3ccd15ea8f8" />
-
+  <img width="3010" height="1726" alt="image" src="https://github.com/user-attachments/assets/161c5c45-13bc-4a16-b84e-be1b70051627" />
 </p>
 
 ⚠️ **This repository is a technical showcase.**
@@ -12,6 +11,9 @@ Source code is intentionally excluded to protect intellectual property, security
 ---
 
 ## 1. Executive Summary
+
+This is an enterprise-grade, autonomous Red Team Orchestrator, Attack Surface Management (ASM), and Agentic AI Security Platform. It is engineered specifically to secure modern cloud applications and autonomous AI agent pipelines against both standard web vulnerabilities and advanced cognitive threats (such as prompt injections, system instructions overrides, and data poisoning).
+
 
 The **AEGIS Agentic Security Auditor & Threat Simulation Engine** represents a paradigm shift in continuous Security Audit and GRC (Governance, Risk, and Compliance) automation. Powered by a coordinated network of autonomous, specialized AI agents, AEGIS automates passive reconnaissance, DNS intelligence mapping, secure transport probing, and deep-context vulnerability assessments. 
 
@@ -51,7 +53,8 @@ AEGIS unites automated security probing, cognitive threat modeling, and immediat
 AEGIS delivers real-time control, high-fidelity monitoring, and deep technical insights through a sleek, interactive operator terminal.
 
 <p align="center">
-  <img src="demos/screenshots/dashboard_screenshot.jpg" alt="AEGIS Multi-Agent Scan Control Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
+ <img width="3019" height="1660" alt="image" src="https://github.com/user-attachments/assets/48accd48-d661-44b7-bd4f-f432b36d216f" />
+
 </p>
 
 ### How the Tool is Used:
@@ -62,12 +65,13 @@ AEGIS delivers real-time control, high-fidelity monitoring, and deep technical i
 
 ---
 
-## 5. High-Value GRC Evidence & Remediation
+## 5. Automated Technical & Executive Reports with Remediation techniques
 
 The ultimate value of AEGIS lies in its ability to bridge the gap between technical finding identification and executive compliance resolution.
 
 <p align="center">
-  <img src="demos/screenshots/remediation_screenshot.jpg" alt="AEGIS GRC Evidence & Remediation Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
+ <img width="3680" height="1961" alt="image" src="https://github.com/user-attachments/assets/06c10e49-97e5-47f7-bb83-a3ee5e74c89e" />
+
 </p>
 
 ### Why This Information is Highly Valuable:
