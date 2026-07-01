@@ -38,13 +38,19 @@ Deploying AI agents without automated cognitive security boundaries leaves organ
 
 ## 3. Solution Overview
 
-AEGIS unites automated security probing, cognitive threat modeling, and immediate, cryptographically validated code-level remediation into a single, cohesive, multi-agent pipeline.
+2. MULTI-AGENT ARCHITECTURE & WORKFLOW
 
 ### Key Capabilities
+* **Recon Agent**: Conducts asynchronous passive DNS checks and server header analysis.
+* **Vulnerability Assessment Agent**: Safely checks for transport weaknesses (weak TLS, missing HSTS, missing CSP, insecure cookies).
+* **Exploit Simulation Agent**: Safely models input validation or endpoint escape paths under strict governance constraints.
+* **AI Security Agent**: Evaluates targeted LLM endpoints against the OWASP Agentic AI Top 10 (ASI01 - ASI10).
+* **AI Analyst Agent**: Integrates server-side Gemini threat modeling to generate risk scores, technical mitigations, and compliance mappings.
 * **Multi-Agent Orchestration**: Coordinates a team of specialized AI agents, ensuring compartmentalized task execution and predictable reasoning loops.
 * **Passive & Safe Assessments**: Gathers deep security intelligence without launching invasive, destructive, or service-disrupting payloads.
 * **GRC Automation Engine**: Automatically translates raw vulnerability logs into highly structured compliance evidence documents mapped directly to global standards.
 * **Remediation Code Blueprinting**: Delivers precise, copy-pasteable TypeScript, Express middleware, and server configurations tailored to the exact context of each finding.
+* **Report Generation Agent**: Formats results into structured text bundles ready for leadership (CISO), engineering, or compliance audits.
 
 ---
 
