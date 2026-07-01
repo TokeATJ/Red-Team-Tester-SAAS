@@ -1,4 +1,4 @@
-# 🚀 REDMIND AI SAAS Project
+# 🚀 REDMIND AGENTIC AI SAAS Project
 
 <p align="center">
   <img width="3010" height="1726" alt="image" src="https://github.com/user-attachments/assets/161c5c45-13bc-4a16-b84e-be1b70051627" />
@@ -15,7 +15,7 @@ Source code is intentionally excluded to protect intellectual property, security
 This is an enterprise-grade, autonomous Red Team Orchestrator, Attack Surface Management (ASM), and Agentic AI Security Platform. It is engineered specifically to secure modern cloud applications and autonomous AI agent pipelines against both standard web vulnerabilities and advanced cognitive threats (such as prompt injections, system instructions overrides, and data poisoning).
 
 
-The **AEGIS Agentic Security Auditor & Threat Simulation Engine** represents a paradigm shift in continuous Security Audit and GRC (Governance, Risk, and Compliance) automation. Powered by a coordinated network of autonomous, specialized AI agents, AEGIS automates passive reconnaissance, DNS intelligence mapping, secure transport probing, and deep-context vulnerability assessments. 
+The **REDMIND AGENTIC AI SAAS Project Security Auditor & Threat Simulation Engine** represents a paradigm shift in continuous Security Audit and GRC (Governance, Risk, and Compliance) automation. Powered by a coordinated network of autonomous, specialized AI agents, AEGIS automates passive reconnaissance, DNS intelligence mapping, secure transport probing, and deep-context vulnerability assessments. 
 
 Designed for cloud-native architectures and AI-integrated pipelines, the engine stress-tests and audits both standard web vulnerabilities and complex AI-specific threats (such as the **OWASP Top 10 for LLM Applications** and the **OWASP Agentic AI Risks (ASI01–ASI10)**). It transforms raw, complex exploit simulations into certified compliance artifacts mapped to global security frameworks (**SOC 2, ISO 27001, NIST CSF 2.0, NIST AI RMF**), complete with cryptographic validation ledgering and interactive code-level remediation.
 
@@ -75,6 +75,7 @@ Scanning a well know application security training environment provided by ports
 ## 5. Automated Technical & Executive Reports with Remediation techniques
 
 The ultimate value of AEGIS lies in its ability to bridge the gap between technical finding identification and executive compliance resolution.
+
 ### Technical Report
 <p align="center">
  <img width="3680" height="1961" alt="image" src="https://github.com/user-attachments/assets/06c10e49-97e5-47f7-bb83-a3ee5e74c89e" />
