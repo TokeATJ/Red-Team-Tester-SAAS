@@ -52,7 +52,7 @@ AEGIS unites automated security probing, cognitive threat modeling, and immediat
 
 AEGIS delivers real-time control, high-fidelity monitoring, and deep technical insights through a sleek, interactive operator terminal.
 
-Using a well know application security training environment provided by portswigger : https://0a46004703ef26bc850c228600fe00ba.web-security-academy.net/
+Scanning a well know application security training environment provided by portswigger : https://0a46004703ef26bc850c228600fe00ba.web-security-academy.net/
 <p align="center">
  <img width="3019" height="1660" alt="image" src="https://github.com/user-attachments/assets/48accd48-d661-44b7-bd4f-f432b36d216f" />
 
