@@ -189,27 +189,27 @@ We welcome serious inquiries from enterprise GRC teams, CISOs, prospective partn
 ## 13. Repository Map
 
 * [📂 **docs/**](docs/)
-  * [Overview & Vision](docs/overview.md) — Product scope and design pillars.
-  * [System Architecture](docs/architecture.md) — Detailed layer-by-layer architectural breakdown.
-  * [Agent Design](docs/agent-design.md) — Roles, inputs, outputs, and boundaries of active agents.
-  * [Workflows](docs/workflows.md) — Step-by-step agent coordination and message streams.
-  * [Security & Governance](docs/security-governance.md) — Least-privilege controls and prompt defenses.
-  * [Compliance Mapping](docs/compliance-mapping.md) — Detailed cross-reference compliance tables.
-* [📂 **diagrams/**](diagrams/)
-  * [System Architecture](diagrams/system-architecture.md) — Mermaid visual map of the services.
-  * [Agent Orchestration](diagrams/agent-orchestration.md) — Sequence flow of agent coordination.
-  * [Data Flow](diagrams/data-flow.md) — Flow of telemetry from host to compiled audit proof.
-  * [Trust Boundary](diagrams/trust-boundary.md) — Network and authentication boundary maps.
-* [📂 **demos/**](demos/)
-  * [Demo Scenarios](demos/demo-scenarios.md) — Operational walkthroughs.
-  * [Sample Input/Output](demos/sample-input-output.md) — Redacted input and output JSON structures.
-* [📂 **evidence/**](evidence/)
-  * [Audit Artifacts](evidence/audit-artifacts.md) — Document structures for external auditors.
-  * [Capability Metrics](evidence/metrics.md) — Core performance benchmarks.
-  * [Performance Summary](evidence/performance-summary.md) — Asynchronous coordination and cryptographic validation details.
-* [📂 **roadmap/**](roadmap/)
-  * [Current State](roadmap/current-state.md) — Verified release capabilities.
-  * [Future Enhancements](roadmap/future-enhancements.md) — Product vision and Q3/Q4 deliverables.
+  * [Overview & Vision] — Product scope and design pillars.
+  * [System Architecture] — Detailed layer-by-layer architectural breakdown.
+  * [Agent Design]— Roles, inputs, outputs, and boundaries of active agents.
+  * [Workflows] — Step-by-step agent coordination and message streams.
+  * [Security & Governance] — Least-privilege controls and prompt defenses.
+  * [Compliance Mapping])— Detailed cross-reference compliance tables.
+* [📂 **diagrams/**]
+  * [System Architecture]— Mermaid visual map of the services.
+  * [Agent Orchestration] — Sequence flow of agent coordination.
+  * [Data Flow] — Flow of telemetry from host to compiled audit proof.
+  * [Trust Boundary] — Network and authentication boundary maps.
+* [📂 **demos/**]
+  * [Demo Scenarios] — Operational walkthroughs.
+  * [Sample Input/Output] — Redacted input and output JSON structures.
+* [📂 **evidence/**]
+  * [Audit Artifacts] — Document structures for external auditors.
+  * [Capability Metrics] — Core performance benchmarks.
+  * [Performance Summary] — Asynchronous coordination and cryptographic validation details.
+* [📂 **roadmap/**]
+  * [Current State] — Verified release capabilities.
+  * [Future Enhancements])— Product vision and Q3/Q4 deliverables.
 
 ---
 
