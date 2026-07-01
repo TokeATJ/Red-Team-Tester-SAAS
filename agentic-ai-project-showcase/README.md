@@ -52,6 +52,7 @@ AEGIS unites automated security probing, cognitive threat modeling, and immediat
 
 AEGIS delivers real-time control, high-fidelity monitoring, and deep technical insights through a sleek, interactive operator terminal.
 
+Using a well know application security training environment provided by portswigger : https://0a46004703ef26bc850c228600fe00ba.web-security-academy.net/
 <p align="center">
  <img width="3019" height="1660" alt="image" src="https://github.com/user-attachments/assets/48accd48-d661-44b7-bd4f-f432b36d216f" />
 
@@ -68,7 +69,7 @@ AEGIS delivers real-time control, high-fidelity monitoring, and deep technical i
 ## 5. Automated Technical & Executive Reports with Remediation techniques
 
 The ultimate value of AEGIS lies in its ability to bridge the gap between technical finding identification and executive compliance resolution.
-### Technical Reprot
+### Technical Report
 <p align="center">
  <img width="3680" height="1961" alt="image" src="https://github.com/user-attachments/assets/06c10e49-97e5-47f7-bb83-a3ee5e74c89e" />
 
