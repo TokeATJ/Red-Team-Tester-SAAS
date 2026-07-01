@@ -1,7 +1,7 @@
-# 🚀 Antigravity Agentic Security Auditor & Threat Simulation Engine
+# 🚀 AEGIS Agentic Security Auditor & Threat Simulation Engine
 
 <p align="center">
-  <img src="demos/screenshots/hero_banner.jpg" alt="Antigravity Security Audit Banner" width="100%" referrerPolicy="no-referrer" />
+  <img src="demos/screenshots/hero_banner.jpg" alt="AEGIS Security Audit Banner" width="100%" referrerPolicy="no-referrer" />
 </p>
 
 ⚠️ **This repository is a technical showcase.**
@@ -12,7 +12,7 @@ Source code is intentionally excluded to protect intellectual property, security
 
 ## 1. Executive Summary
 
-The **Antigravity Agentic Security Auditor & Threat Simulation Engine** represents a paradigm shift in continuous Security Audit and GRC (Governance, Risk, and Compliance) automation. Powered by a coordinated network of autonomous, specialized AI agents, Antigravity automates passive reconnaissance, DNS intelligence mapping, secure transport probing, and deep-context vulnerability assessments. 
+The **AEGIS Agentic Security Auditor & Threat Simulation Engine** represents a paradigm shift in continuous Security Audit and GRC (Governance, Risk, and Compliance) automation. Powered by a coordinated network of autonomous, specialized AI agents, AEGIS automates passive reconnaissance, DNS intelligence mapping, secure transport probing, and deep-context vulnerability assessments. 
 
 Designed for cloud-native architectures and AI-integrated pipelines, the engine stress-tests and audits both standard web vulnerabilities and complex AI-specific threats (such as the **OWASP Top 10 for LLM Applications** and the **OWASP Agentic AI Risks (ASI01–ASI10)**). It transforms raw, complex exploit simulations into certified compliance artifacts mapped to global security frameworks (**SOC 2, ISO 27001, NIST CSF 2.0, NIST AI RMF**), complete with cryptographic validation ledgering and interactive code-level remediation.
 
@@ -35,7 +35,7 @@ Deploying AI agents without automated cognitive security boundaries leaves organ
 
 ## 3. Solution Overview
 
-Antigravity unites automated security probing, cognitive threat modeling, and immediate, cryptographically validated code-level remediation into a single, cohesive, multi-agent pipeline.
+AEGIS unites automated security probing, cognitive threat modeling, and immediate, cryptographically validated code-level remediation into a single, cohesive, multi-agent pipeline.
 
 ### Key Capabilities
 * **Multi-Agent Orchestration**: Coordinates a team of specialized AI agents, ensuring compartmentalized task execution and predictable reasoning loops.
@@ -47,10 +47,10 @@ Antigravity unites automated security probing, cognitive threat modeling, and im
 
 ## 4. Core Features & Tool Usage
 
-Antigravity delivers real-time control, high-fidelity monitoring, and deep technical insights through a sleek, interactive operator terminal.
+AEGIS delivers real-time control, high-fidelity monitoring, and deep technical insights through a sleek, interactive operator terminal.
 
 <p align="center">
-  <img src="demos/screenshots/dashboard_screenshot.jpg" alt="Antigravity Multi-Agent Scan Control Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
+  <img src="demos/screenshots/dashboard_screenshot.jpg" alt="AEGIS Multi-Agent Scan Control Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
 </p>
 
 ### How the Tool is Used:
@@ -63,22 +63,22 @@ Antigravity delivers real-time control, high-fidelity monitoring, and deep techn
 
 ## 5. High-Value GRC Evidence & Remediation
 
-The ultimate value of Antigravity lies in its ability to bridge the gap between technical finding identification and executive compliance resolution.
+The ultimate value of AEGIS lies in its ability to bridge the gap between technical finding identification and executive compliance resolution.
 
 <p align="center">
-  <img src="demos/screenshots/remediation_screenshot.jpg" alt="Antigravity GRC Evidence & Remediation Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
+  <img src="demos/screenshots/remediation_screenshot.jpg" alt="AEGIS GRC Evidence & Remediation Panel" width="90%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);" referrerPolicy="no-referrer" />
 </p>
 
 ### Why This Information is Highly Valuable:
-* **Accelerating developer remediation**: Instead of generic compliance advice, Antigravity generates exact, contextual before-and-after code modifications (such as strict Content-Security-Policy middleware or input schema sanitization blocks). This reduces patch times from days to minutes.
-* **Satisfying GRC and Security Auditors**: Antigravity compiles structured, human-in-the-loop validated reports directly cross-referenced with official control requirements (e.g., CC7.1, A.8.28, SI-2).
+* **Accelerating developer remediation**: Instead of generic compliance advice, AEGIS generates exact, contextual before-and-after code modifications (such as strict Content-Security-Policy middleware or input schema sanitization blocks). This reduces patch times from days to minutes.
+* **Satisfying GRC and Security Auditors**: AEGIS compiles structured, human-in-the-loop validated reports directly cross-referenced with official control requirements (e.g., CC7.1, A.8.28, SI-2).
 * **Cryptographic Tamper-Proof Seals**: Completed reports are canonicalized and signed using SHA-256 cryptographic hashes. This enables compliance teams to immediately prove the absolute integrity and authenticity of their audit evidence packets.
 
 ---
 
 ## 6. Agentic AI Design
 
-Antigravity coordinates multiple autonomous, specialized agents, each bound to a strict operational scope:
+AEGIS coordinates multiple autonomous, specialized agents, each bound to a strict operational scope:
 
 * **Intake Agent**: Verifies targeting permissions, checks RBAC authorization, and establishes targeting parameters.
 * **Reconnaissance Agent**: Coordinates passive DNS intelligence and network architecture mapping.
@@ -118,7 +118,7 @@ Detailed architectural breakdowns—including system boundaries, memory layers, 
 
 ## 8. Security, Governance & Risk Management
 
-Security is the core operating philosophy of Antigravity:
+Security is the core operating philosophy of AEGIS:
 * **Principle of Least Privilege (PoLP)**: All tool workers execute within ephemeral, sandboxed containers, preventing access to host environments or unauthorized external networks.
 * **Structured Output Schemas**: All agent communications are parsed via strict TypeScript interfaces, neutralising indirect prompt injection attacks before they can hijack reasoning streams.
 * **Data Minimization and Redaction**: Logs are dynamically scanned and redacted prior to database persistence, ensuring no corporate secrets, system tokens, or personal identifiers are stored.

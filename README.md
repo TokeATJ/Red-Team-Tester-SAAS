@@ -1,16 +1,16 @@
-# ANTIGRAVITY AI — AUTONOMOUS RED TEAM & AGENTIC AI SECURITY PLATFORM
+# REDMIND AI — AUTONOMOUS RED TEAM & AGENTIC AI SECURITY PLATFORM
 
-Antigravity AI is an enterprise-grade SaaS platform built to automate authorized security validation, Attack Surface Management (ASM), and Agentic AI Security Auditing. The platform combines passive intelligence gathering, non-destructive threat simulation modeling, and server-side reasoning engines powered by Gemini AI models to map complex threat paths.
+RedMind AI is an enterprise-grade SaaS platform built to automate authorized security validation, Attack Surface Management (ASM), and Agentic AI Security Auditing. The platform combines passive intelligence gathering, non-destructive threat simulation modeling, and server-side reasoning engines powered by Gemini AI models to map complex threat paths.
 
 ---
 
 ## 1. ARCHITECTURE OVERVIEW
 
-Antigravity AI utilizes a modern, robust, full-stack architecture combining a reactive TypeScript frontend styled after the premium **"Sleek Interface"** design paradigm with a secure Node.js (Express) backend.
+RedMind AI utilizes a modern, robust, full-stack architecture combining a reactive TypeScript frontend styled after the premium **"Sleek Interface"** design paradigm with a secure Node.js (Express) backend.
 
 ```
 +--------------------------------------------------------------------------+
-|                              ANTIGRAVITY FRONTEND                         |
+|                              REDMIND FRONTEND                            |
 |    [Executive Dashboard]  [Attack Surface]  [Governance & Compliance]     |
 |    [Active Scan Console]  [Evidence Vault]  [OWASP Agentic AI Monitor]   |
 +------------------------------------+-------------------------------------+
@@ -18,7 +18,7 @@ Antigravity AI utilizes a modern, robust, full-stack architecture combining a re
                                      | Secure API Handshakes (REST/JSON)
                                      v
 +------------------------------------+-------------------------------------+
-|                              ANTIGRAVITY BACKEND                          |
+|                              REDMIND BACKEND                             |
 |    * Multi-Agent Coordinator Core                                        |
 |    * Passive Port & Header Inspect Hook                                  |
 |    * STRIDE & MITRE ATT&CK Mapper Engine                                 |
@@ -91,7 +91,7 @@ The platform maintains rich, typed state models mapped to the following entities
 
 ## 5. DOCKER CONFIGURATION
 
-Deploy Antigravity AI safely using isolated, non-privileged Docker configurations:
+Deploy RedMind AI safely using isolated, non-privileged Docker configurations:
 
 ```dockerfile
 # Dockerfile
@@ -121,7 +121,7 @@ CMD ["tsx", "server.ts"]
 
 ## 6. ETHICAL COMPLIANCE & LEGAL SAFETY
 
-Antigravity AI enforces security constraints to prevent abuse:
+RedMind AI enforces security constraints to prevent abuse:
 1. **SSRF Protections**: Targets resolving to local addresses (`localhost`, `127.0.0.1`, loopbacks) are immediately blocked.
 2. **Authorization Consent Check**: Initiators must confirm ownership before scans are queued.
 3. **Passive Auditing**: The scanning engine utilizes only standard GET, HEAD, and passive DNS lookups. No exploits or hostile code are deployed.

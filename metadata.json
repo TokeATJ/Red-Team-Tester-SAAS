@@ -1,5 +1,5 @@
 {
-  "name": "Antigravity AI",
+  "name": "RedMind AI",
   "description": "Autonomous Red Team, Security Validation, Attack Surface Management, and Agentic AI Security Platform.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

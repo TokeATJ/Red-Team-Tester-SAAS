@@ -310,7 +310,7 @@ export default function App() {
   };
 
   return (
-    <div id="antigravity-app" className="flex h-screen w-full bg-[#0A0A0C] text-slate-300 font-sans overflow-hidden">
+    <div id="redmind-app" className="flex h-screen w-full bg-[#0A0A0C] text-slate-300 font-sans overflow-hidden">
       
       {/* ==========================================
           SIDEBAR NAVIGATION (Matches Sleek Interface layout)
@@ -319,14 +319,14 @@ export default function App() {
         <div>
           {/* Logo Brand Header */}
           <div className="p-6 flex items-center space-x-3 border-b border-slate-800/20">
-            <div className="w-8 h-8 bg-indigo-600 rounded flex items-center justify-center shadow-[0_0_15px_rgba(79,70,229,0.4)]">
+            <div className="w-8 h-8 bg-red-600 rounded flex items-center justify-center shadow-[0_0_15px_rgba(220,38,38,0.4)]">
               <div className="w-4 h-4 border-2 border-white rotate-45 flex items-center justify-center">
                 <div className="w-1 h-1 bg-white rounded-full"></div>
               </div>
             </div>
             <div>
-              <span className="text-white font-bold tracking-tight text-lg block">ANTIGRAVITY AI</span>
-              <span className="text-[9px] text-indigo-400 font-mono tracking-widest block -mt-1 font-bold">RED TEAM OPERATIONS</span>
+              <span className="text-white font-bold tracking-tight text-lg block">REDMIND AI</span>
+              <span className="text-[9px] text-red-400 font-mono tracking-widest block -mt-1 font-bold">RED TEAM OPERATIONS</span>
             </div>
           </div>
 
@@ -777,7 +777,7 @@ export default function App() {
 
                   <div className="bg-slate-900/40 p-3 rounded border border-slate-800 mt-6 text-xs text-slate-400">
                     <span className="text-white font-bold block mb-1">Passive ASM Monitoring</span>
-                    Antigravity AI logs subdomains and microservices autonomously over time, assessing potential cascading attack pathways without breaking service operational continuity.
+                    RedMind AI logs subdomains and microservices autonomously over time, assessing potential cascading attack pathways without breaking service operational continuity.
                   </div>
                 </div>
 
@@ -848,7 +848,7 @@ export default function App() {
                     <div className="bg-slate-900/60 border border-slate-800/80 p-4 rounded-lg space-y-2">
                       <span className="text-[10px] text-cyan-400 font-mono uppercase tracking-widest font-bold block">Unified Security Assessment Scope</span>
                       <p className="text-[11px] text-slate-300 leading-normal">
-                        Antigravity's multi-agent orchestration engine automatically runs a simultaneous, non-destructive audit checking <strong>all 4 security surfaces</strong>:
+                        RedMind's multi-agent orchestration engine automatically runs a simultaneous, non-destructive audit checking <strong>all 4 security surfaces</strong>:
                       </p>
                       <ul className="text-[11px] text-slate-400 space-y-1.5 pl-1.5 list-none font-mono">
                         <li className="flex items-center space-x-2">
@@ -1533,7 +1533,7 @@ export default function App() {
             </div>
             
             <p className="text-xs text-slate-300 leading-relaxed space-y-2">
-              Antigravity AI is an autonomous agentic security validation platform built exclusively for defensive audit verification, vulnerability assessment, and authorized threat modeling. 
+              RedMind AI is an autonomous agentic security validation platform built exclusively for defensive audit verification, vulnerability assessment, and authorized threat modeling. 
               <br /><br />
               All tests performed are non-destructive and strictly simulate scenarios mapping to OWASP Agentic AI Top 10 and traditional web vulnerability indices. Execution of actual attacks, malware deployment, or unauthorized testing against external assets is strictly prohibited by both regulatory guidelines and system governance layers.
             </p>
