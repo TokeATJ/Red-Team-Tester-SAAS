@@ -176,6 +176,14 @@ To protect intellectual property and ensure the platform remains a defensive ass
 
 ---
 
+## How to Use This SaaS (Quick Start Guide)
+Login to the REDMIND AGENTIC AI
+Add API Key: Ensure your Gemini API key is configured in Settings.
+Define Target: Enter https://your-staging-app.com.
+Select Active Sandbox Role: Defaults to Security Analyst
+Run: Go to Active Scans & Engine, input your target URL, select Launch multi-agent threat modeling
+Export: Click Download Report when finished.
+
 ## 12. Request a Private Demo
 
 We welcome serious inquiries from enterprise GRC teams, CISOs, prospective partners, and employers under a Mutual Non-Disclosure Agreement (MNDA).
@@ -188,7 +196,7 @@ We welcome serious inquiries from enterprise GRC teams, CISOs, prospective partn
 
 ## 13. Repository Map
 
-* [📂 **docs/**](docs/)
+* [📂 **docs/**]
   * [Overview & Vision] — Product scope and design pillars.
   * [System Architecture] — Detailed layer-by-layer architectural breakdown.
   * [Agent Design]— Roles, inputs, outputs, and boundaries of active agents.
