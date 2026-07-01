@@ -56,7 +56,7 @@ Deploying AI agents without automated cognitive security boundaries leaves organ
 
 ## 4. Core Features & Tool Usage
 
-AEGIS delivers real-time control, high-fidelity monitoring, and deep technical insights through a sleek, interactive operator terminal.
+REDMIND AGENTIC AI delivers real-time control, high-fidelity monitoring, and deep technical insights through a sleek, interactive operator terminal.
 
 Scanning a well know application security training environment provided by portswigger : https://0a46004703ef26bc850c228600fe00ba.web-security-academy.net/
 <p align="center">
@@ -74,7 +74,7 @@ Scanning a well know application security training environment provided by ports
 
 ## 5. Automated Technical & Executive Reports with Remediation techniques
 
-The ultimate value of AEGIS lies in its ability to bridge the gap between technical finding identification and executive compliance resolution.
+The ultimate value of REDMIND AGENTIC AI lies in its ability to bridge the gap between technical finding identification and executive compliance resolution.
 
 ### Technical Report
 <p align="center">
@@ -90,7 +90,7 @@ The ultimate value of AEGIS lies in its ability to bridge the gap between techni
 
 ### Why This Information is Highly Valuable:
 * **Accelerating developer remediation**: Instead of generic compliance advice, AEGIS generates exact, contextual before-and-after code modifications (such as strict Content-Security-Policy middleware or input schema sanitization blocks). This reduces patch times from days to minutes.
-* **Satisfying GRC and Security Auditors**: AEGIS compiles structured, human-in-the-loop validated reports directly cross-referenced with official control requirements (e.g., CC7.1, A.8.28, SI-2).
+* **Satisfying GRC and Security Auditors**: REDMIND AGENTIC AI compiles structured, human-in-the-loop validated reports directly cross-referenced with official control requirements (e.g., CC7.1, A.8.28, SI-2).
 * **Cryptographic Tamper-Proof Seals**: Completed reports are canonicalized and signed using SHA-256 cryptographic hashes. This enables compliance teams to immediately prove the absolute integrity and authenticity of their audit evidence packets.
 
 ---
@@ -105,7 +105,7 @@ AEGIS coordinates multiple autonomous, specialized agents, each bound to a stric
 * **AI Exploitation Agent**: Stress-tests model prompting pipelines with safe, simulated cognitive fuzzing payloads.
 * **Security & Compliance Agent**: Synthesizes telemetry logs, maps findings to compliance clauses, and compiles the code-level remediation blueprints.
 
-Explore our [Agent Design Specifications](docs/agent-design.md) for full functional boundaries and escalation policies.
+
 
 ---
 
@@ -153,7 +153,7 @@ Security is the core operating philosophy of AEGIS:
 | **ASI01 — Cognitive Intent Override** | **PR.IP-01** | **A.8.28** | **CC6.1** | **ASI01** | **Govern 1.2** |
 | **ASI06 — Indirect Prompt Injection** | **PR.DS-01** | **A.8.24** | **CC6.1** | **ASI06** | **Measure 2.11** |
 
-Full alignments are mapped in the [Compliance Mapping Guide](docs/compliance-mapping.md).
+
 
 ---
 
